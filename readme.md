@@ -14,9 +14,7 @@
 
 ## Lectures
 
-Avant de commencer, je vous encourage, très fortement, de lire la [documentation sur les promesses](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Using_promises) , ensuite la  [documentation de fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) et enfin [cet article](https://wesbos.com/javascript/13-ajax-and-fetching-data/74-ajax-and-apis) de Wes Bos. 
-
-
+Avant de commencer, je vous encourage, très fortement, de lire la [documentation sur les promesses](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Using_promises) , ensuite la [documentation de fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) et enfin [cet article](https://wesbos.com/javascript/13-ajax-and-fetching-data/74-ajax-and-apis) de Wes Bos. 
 
 ## Fetch
 
@@ -29,8 +27,6 @@ Ce genre de fonctionnalité était auparavant réalisé avec [`XMLHttpRequest`](
 
 
 ## Énoncé
-
-
 
 1. Récupérer au format *json* [le tableau contenant 1000 villes et états américains](https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json). On vous demande de gérer deux types d'erreurs. Premièrement celles liées à l’utilisation de fetch ainsi que celles du protocole HTTP au travers de ses codes d’erreur. 
 
