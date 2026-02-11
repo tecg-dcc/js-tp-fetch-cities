@@ -1,9 +1,14 @@
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+}
+
 export const settings = {
-    suggestionListSelector: '.suggestions',
-    inputElementID: 'search',
-    liHTML(city) {
+    searchInputID: 'search',
+    listContainerSelector: '.suggestions',
+    listItemHTMl(city) {
         return `<li>
-        <span class="name">${city.city} - ${city.state}</span>
-        <span class="population">${city.population}</span></li>`;
+           <span class="name">${city.city}</span>
+           <span class="population">${numberWithCommas(city.population)}</span>
+           </li>`;
     }
 }
